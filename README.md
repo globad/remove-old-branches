@@ -1,6 +1,6 @@
 # remove-old-branches
 ### Briefly.
-Removes old branches in Butbucket repository. Use it on your own risk!
+This tool removes old branches in Butbucket repository. Use it on your own risk!
 
 ### Description
  
@@ -11,7 +11,8 @@ So this small script was started. All it does is it goes to the page with branch
 (by default the branches are sorted so that the oldest branches are found at the very bottom) and removes the branches from the bottom
 up one by one until there are 100 branches left (this is customizable).
 Exceptions are made for the master and develop branches and for the list of stop words. Be сareful! Use it at your own risk.
-If something doesn't work, please add an Issue.
+
+If something doesn't work, please create an Issue.
 
 Made with __selenium-webdriver__,
 
@@ -22,6 +23,16 @@ repository: [some self-hosted Bitbucket](https://bitbucket.org/product/pricing?t
 ### System requirements:
 - Node v. 8.9.1 (may be working with older versions, didn't check it)
 - Chrome v. 72.0.3626 from [here](http://chromedriver.storage.googleapis.com/index.html?path=72.0.3626.7/) (put it in the project's parent directory).
+
+### Setup:
+- navigate to the directory where you want to install the tool
+- download Chrome driver from official Google [storage](http://chromedriver.storage.googleapis.com/index.html?path=72.0.3626.7/) and place it in the current directory
+- `npm i remove-old-branches`
+
+### Run:
+
+- `cd remove-old-branches`
+- `npm start`
 
 All the switches in _config.js_.
 

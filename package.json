@@ -4,11 +4,20 @@
   "description": "Removes old branches in Butbucket repository",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/globad/remove-old-branches.git"
   },
   "author": "globad",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/globad/remove-old-branches/issues"
+  },
   "dependencies": {
     "selenium-webdriver": "^4.0.0-alpha.1"
-  }
+  },
+  "homepage": "https://github.com/globad/remove-old-branches"
 }
