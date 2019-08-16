@@ -1,6 +1,6 @@
 {
   "name": "remove-old-branches",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Removes old branches in Butbucket repository",
   "main": "index.js",
   "scripts": {

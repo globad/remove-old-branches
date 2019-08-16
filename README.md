@@ -31,7 +31,7 @@ repository: [some self-hosted Bitbucket](https://bitbucket.org/product/pricing?t
 
 ### Run:
 
-- `cd remove-old-branches`
+- `cd node_modules/remove-old-branches`
 - `npm start`
 
 All the switches in _config.js_.
